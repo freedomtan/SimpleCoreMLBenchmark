@@ -39,7 +39,7 @@
     enableCoreML = false;
     numberOfThreads = 1;
     
-    _cpuGPUData = @[@"CPU", @"GPU", @"CoreML"];
+    _cpuGPUData = @[@"CPU", @"CPU+GPU", @"ALL"];
     _numberOfThreadsData = @[@"1", @"2", @"3", @"4", @"5", @"6", @"7", @"8", @"9", @"10"];
     _modelNames = @[@"MobileNet EdgeTPU", @"SSD MobileNet V2",
                     @"DeepLabV3 ADE20K", @"MobileBERT"];
